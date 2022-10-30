@@ -29,7 +29,7 @@ class CharacterListFragment : Fragment(), CharacterListAdapter.CharacterClickLis
     var genderQuery:String = ""
     var statusQuery:String = ""
     var speciesQuery:String = ""
-    var _speciesQuery:String = ""
+    private var _speciesQuery:String = ""
 
     override fun onCreateView(
         inflater: LayoutInflater,

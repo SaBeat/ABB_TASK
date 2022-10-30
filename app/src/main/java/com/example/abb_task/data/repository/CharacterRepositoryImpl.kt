@@ -41,15 +41,4 @@ class CharacterRepositoryImpl @Inject constructor(
         }
     }
 
-//    override fun getCharactersByGender(characterGender: String): Flow<PagingData<Character>> {
-//        TODO("Not yet implemented")
-//    }
-//
-//    override fun getCharactersByStatus(characterStatus: String): Flow<PagingData<Character>> {
-//        TODO("Not yet implemented")
-//    }
-//
-//    override fun getCharactersBySpecies(characterSpecies: String): Flow<PagingData<Character>> {
-//        TODO("Not yet implemented")
-//    }
 }
